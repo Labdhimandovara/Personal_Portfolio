@@ -35,10 +35,12 @@ This project showcases my skills, projects, and contact information using a clea
 ## 📂 Project Structure
 
 Personal_Portfolio/
+|
 │── index.html
 │── main.css
 │── README.md
 │── img/
+|
 │ ├── profile.png
 │ ├── sun.jpg
 │ ├── art2.jpg
