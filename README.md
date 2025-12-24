@@ -33,6 +33,7 @@ This project showcases my skills, projects, and contact information using a clea
 ---
 
 ## 📂 Project Structure
+```text
 
 Personal_Portfolio/
 |
@@ -48,7 +49,7 @@ Personal_Portfolio/
 │ └── PAINTINGS.jpg
 
 
----
+```
 
 ##  How to Run Locally
 
