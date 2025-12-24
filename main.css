@@ -1,0 +1,193 @@
+*{
+
+    font-family:'Times New Roman', Times, serif;
+ }
+:root{
+    --BGCOLOR: white;
+    --FS: #101010;
+    --BORDER: #040404;
+}
+html {
+                font-size: 22px;
+                scroll-behavior: smooth;
+                width: 100%;
+                height: 100%;
+     }
+body {
+                background-color: var(--BGCOLOR);
+                color: var(--FS);
+     } 
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    min-width: 600px;
+   
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    word-break: break-word;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid rgba(244, 229, 229, 0.902);
+    background-color: rgb(141, 134, 137);
+    color: #000000;
+    border-radius: 20px;   
+}
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+    h1{
+        border: 5px solid #898888;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        padding: 10px;
+        text-align: center;
+        outline:3px solid #060606;
+        background-image: url(img/wp7786320.jpg);
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        font-size: clamp(28px, 6vw, 48px);
+        font-weight: bold;
+        color: transparent;
+        background-clip: text;
+        animation: fadeSlide 0.8s ease-out forwards;
+    }
+    nav ul li {
+        display: inline;   
+        margin-right: 20px; 
+    }
+    nav{
+        text-align: center; 
+        margin-bottom: 2rem;
+    }
+    a{
+        color: #0f0f0f;   
+        text-decoration: underline;
+    }
+    a:hover {
+        color:  #434343;   
+    }
+    a:active {
+        color: #868394;   
+    }
+    abbr {
+        text-decoration: none;   
+    }
+    .profile {
+        float: left;
+        margin-right: 15px;
+        border-radius: 200px;
+        border: 5px double var(--BORDER);
+    }
+    .clear {
+        clear: both;
+    }
+    .columns {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 0;
+        background-color: #625d5f;
+        background-image: linear-gradient(#272627, #a6a6a9);
+    }
+    .columns li {
+        margin-bottom: 15px;
+        list-style-type: none;
+        text-align: center;
+    }
+    .columns li img {
+        width: 100%;
+        height: 300px;          
+        
+}
+    aside{
+        text-align: center;
+    }
+    form{
+        background-color: #f4f2f4;
+        padding: 15px;
+        border: 3px solid var(--BORDER);
+        border-radius: 10px;
+        color: white;
+        background-image: url(img/wp7786320.jpg);
+        background-size: cover;
+    }
+    input, textarea{
+        width: 30%;
+        padding: 8px;
+        border: 2px solid rgb(41, 40, 40);
+        border-radius: 5px;
+    }
+
+    button{
+        padding: 10px;
+        background-color: rgb(237, 233, 233);
+        color: var(--FS);
+        border: 2px solid var(--BORDER);
+        border-radius: 5px;
+        text-size-adjust: 16px;
+        font-size: larger;
+    }
+    button:hover{
+        background-color: #3d3a3b;
+        color: rgb(13, 13, 13);
+        cursor: pointer;
+    }
+    footer {
+        text-align: center;
+        margin-top: 2rem;
+        padding: 10px;
+        border-top: 2px solid var(--BORDER);
+    }
+    footer p a {
+        color: var(--FS);
+        text-decoration: none;
+    }
+
+    hr {
+        border: none;
+        border-top: 2px solid var(--BORDER);
+        margin: 2rem 0;
+    }
+    img {
+        border-radius: 10px;
+        border: 2px solid rgb(18, 18, 18);
+        display: block;
+    }
+    figure {
+        display: flex;
+        flex-direction: column;
+    }
+    figcaption {
+        margin-top: 10px;
+        font-style: italic;
+    }
+    @media screen and (min-width: 576px) {
+        body{
+            font-size: 18px;
+            background-color: #ffffff;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        body{
+            font-size: 20px;
+            background-color: #fefefec4;
+        }
+    }
+    @media screen and (min-width: 992px) {
+        body{
+            font-size: 22px;
+            background-color: #e0dddfd8;
+        }
+    }
